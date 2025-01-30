@@ -19,25 +19,25 @@ A simple REST API built with Node.js, Express, and MongoDB to manage product dat
 
 ## Installation
 
-Clone the repository:
+Clone the repository: \
    ```sh
    git clone https://github.com/0Sa-ad0/product-api.git
    cd product-api
    ```
 
-Install dependencies:
+Install dependencies: \
     ```sh
     npm install express mongoose dotenv body-parser cors
     npm install --save-dev nodemon
     ```
 
-Create a .env file in the root directory and add:
+Create a .env file in the root directory and add: \
     ```sh
     PORT=5000
     MONGO_URI=mongodb://localhost:27017/productdb
     ```
 
-Start the server:
+Start the server: \
     ```sh
     npm run dev
     ```
