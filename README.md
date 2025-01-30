@@ -19,7 +19,8 @@ A simple REST API built with Node.js, Express, and MongoDB to manage product dat
 
 ## Installation
 
-Clone the repository: \
+Clone the repository: 
+
    ```sh
    git clone https://github.com/0Sa-ad0/product-api.git
    cd product-api
@@ -27,7 +28,7 @@ Clone the repository: \
 
 Install dependencies: \
     ```sh
-    npm install express mongoose dotenv body-parser cors
+    npm install express mongoose dotenv body-parser cors 
     npm install --save-dev nodemon
     ```
 
