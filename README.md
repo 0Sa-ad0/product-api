@@ -26,6 +26,26 @@ Clone the repository:
    cd product-api
    ```
 
+Install dependencies:
+
+    ```sh
+    npm install express mongoose dotenv body-parser cors
+    npm install --save-dev nodemon
+    ```
+
+Create a .env file in the root directory and add:
+
+    ```sh
+    PORT=5000
+    MONGO_URI=mongodb://localhost:27017/productdb
+    ```
+
+Start the server:
+
+    ```sh
+    npm run dev
+    ```
+
 # API Endpoints
 
 ## Add a Product
@@ -35,19 +55,19 @@ Clone the repository:
 
     ```json
     {
-    "name": "Laptop",
-    "price": 1200,
-    "description": "High-end laptop"
+        "name": "Laptop",
+        "price": 1200,
+        "description": "High-end laptop"
     }
 
     Response:
 
     {
-    "_id": "65df2...",
-    "name": "Laptop",
-    "price": 1200,
-    "description": "High-end laptop",
-    "createdAt": "2025-01-30T10:00:00.000Z"
+        "_id": "65df2...",
+        "name": "Laptop",
+        "price": 1200,
+        "description": "High-end laptop",
+        "createdAt": "2025-01-30T10:00:00.000Z"
     }
     ```
 
@@ -75,6 +95,6 @@ Clone the repository:
 
     ```json
     {
-    "message": "Product deleted"
+        "message": "Product deleted"
     }
     ```
