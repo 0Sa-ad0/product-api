@@ -85,6 +85,7 @@ Start the server: \
         }
     ]
     ```
+![](https://github.com/0Sa-ad0/product-api/blob/main/screenshot/list.png)
 
 ## Delete a Product
 
@@ -96,3 +97,4 @@ Start the server: \
         "message": "Product deleted"
     }
     ```
+![](https://github.com/0Sa-ad0/product-api/blob/main/screenshot/delete.png)
