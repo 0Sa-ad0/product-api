@@ -67,6 +67,7 @@ Start the server: \
         "createdAt": "2025-01-30T10:00:00.000Z"
     }
     ```
+![](https://github.com/0Sa-ad0/product-api/blob/main/screenshot/add.png)
 
 ## Retrieve All Products
 
