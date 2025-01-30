@@ -27,19 +27,19 @@ Clone the repository:
    ```
 
 Install dependencies: \
-    ```sh
+    ```
     npm install express mongoose dotenv body-parser cors 
     npm install --save-dev nodemon
     ```
 
 Create a .env file in the root directory and add: \
-    ```sh
+    ```
     PORT=5000
     MONGO_URI=mongodb://localhost:27017/productdb
     ```
 
 Start the server: \
-    ```sh
+    ```
     npm run dev
     ```
 
