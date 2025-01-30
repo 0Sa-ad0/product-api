@@ -78,13 +78,13 @@ Start the server:
 
     ```json
     [
-    {
-        "_id": "65df2...",
-        "name": "Laptop",
-        "price": 1200,
-        "description": "High-end laptop",
-        "createdAt": "2025-01-30T10:00:00.000Z"
-    }
+        {
+            "_id": "65df2...",
+            "name": "Laptop",
+            "price": 1200,
+            "description": "High-end laptop",
+            "createdAt": "2025-01-30T10:00:00.000Z"
+        }
     ]
     ```
 
