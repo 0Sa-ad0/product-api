@@ -26,9 +26,9 @@ Clone the repository:
    cd product-api
    ```
 
-## API Endpoints
+# API Endpoints
 
-# Add a Product
+## Add a Product
 
 - Endpoint: `POST` `/api/products/add`
 - Request Body:
@@ -51,7 +51,7 @@ Clone the repository:
     }
     ```
 
-# Retrieve All Products
+## Retrieve All Products
 
 - Endpoint: `GET` `/api/products/list`
 - Response:
@@ -68,7 +68,7 @@ Clone the repository:
     ]
     ```
 
-# Delete a Product
+## Delete a Product
 
 - Endpoint: `DELETE` `/api/products/delete/:id`
 - Response:
