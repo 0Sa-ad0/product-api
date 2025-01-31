@@ -99,3 +99,7 @@ Start the server: \
     ```
 ![](https://github.com/0Sa-ad0/product-api/blob/main/screenshot/delete.png)
 
+# VIDEO
+
+https://github.com/user-attachments/assets/68db8677-a31e-4aa3-a171-b8995c16ef1e
+
